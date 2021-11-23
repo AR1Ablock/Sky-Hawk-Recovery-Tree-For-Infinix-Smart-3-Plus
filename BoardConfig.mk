@@ -59,8 +59,6 @@ TARGET_BOARD_PLATFORM := mt6761
 # Debugging
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
  
 ifeq ($(TARGET_USES_LOGD), true)
     RELINK_SOURCE_FILES += $(TARGET_OUT_EXECUTABLES)/logd
@@ -102,3 +100,8 @@ SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 SHRP_FLASH_MAX_BRIGHTNESS := 255
 SHRP_DARK := true
 SHRP_NOTCH := true
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+INC_IN_REC_ADDON_3 := true
+INC_IN_REC_ADDON_4 := true
+INC_IN_REC_MAGISK := true
