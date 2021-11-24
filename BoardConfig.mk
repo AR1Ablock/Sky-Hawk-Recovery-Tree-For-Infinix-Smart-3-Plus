@@ -105,5 +105,3 @@ SHRP_SKIP_DEFAULT_ADDON_2 := true
 INC_IN_REC_ADDON_3 := true
 INC_IN_REC_ADDON_4 := true
 SHRP_SKIP_DEFAULT_ADDON_5 := true
-SHRP_EXTERNAL_ADDON_PATH := "device/infinix/$(Nova)/recovery/root/Su/Su-Remover.zip/"
-SHRP_EXTERNAL_ADDON_PATH := "device/infinix/$Nova/recovery/root/Su/Phh-Su.zip/"
