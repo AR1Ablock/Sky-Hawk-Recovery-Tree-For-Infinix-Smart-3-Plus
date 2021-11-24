@@ -102,3 +102,45 @@ INC_IN_REC_ADDON_3 := true
 INC_IN_REC_ADDON_4 := true
 SHRP_SKIP_DEFAULT_ADDON_5 := true
 SHRP_EXCLUDE_MAGISK_FLASH := true
+
+# Setting up custom addons folder.
+SHRP_EXTERNAL_ADDON_PATH := "device/infinix/Nova/recovery/root/twres/addons/"
+
+# Custom Addons 1.
+# Added Phh-Su addon.
+SHRP_EXTERNAL_ADDON_1_NAME := "Install Phh Su"
+
+# Text Message About Addon.
+SHRP_EXTERNAL_ADDON_1_INFO := "This Root Works With GSI & Custom Roms. It Will Not Work in Stock Roms"
+
+#Name Of Addon.
+SHRP_EXTERNAL_ADDON_1_FILENAME := "Phh-Su.zip"
+
+# Last Warning About Installtion.
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Confirm"
+
+# On Successfull Installtion.
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Root Installed"
+
+# To Add Custom Addon Inisde Ramdisk Other Wise addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons).
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+
+
+#Custom Addon 2.
+# Added Phh-Su Remover addon.
+SHRP_EXTERNAL_ADDON_2_NAME := "Remove Phh Su"
+
+# Text Message About Addon.
+SHRP_EXTERNAL_ADDON_2_INFO := "This Will Remove Phh Root From Your Device"
+
+#Name Of Addon.
+SHRP_EXTERNAL_ADDON_2_FILENAME := "Su-Remover.zip"
+
+# Last Warning About Installtion.
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Confirm"
+
+# On Successfull Installtion.
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Root Removed Successfully"
+
+# To Add Custom Addon Inisde Ramdisk Other Wise addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons).
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
