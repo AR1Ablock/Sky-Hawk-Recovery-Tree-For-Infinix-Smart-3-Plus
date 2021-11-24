@@ -144,3 +144,22 @@ SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Root Removed Successfully"
 
 # To Add Custom Addon Inisde Ramdisk Other Wise addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons).
 SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
+
+#Custom Addon 3.
+# Added Boot Sign-In addon.
+SHRP_EXTERNAL_ADDON_3_NAME := "Sign-In Boot"
+
+# Text Message About Addon.
+SHRP_EXTERNAL_ADDON_3_INFO := "This Will Sign-In your boot and twrp will not be replace by stock recovery after reboot"
+
+#Name Of Addon.
+SHRP_EXTERNAL_ADDON_3_FILENAME := "sign_boot.zip"
+
+# Last Warning About Installtion.
+SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Confirm"
+
+# On Successfull Installtion.
+SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := "Boot Sign-In Successfully"
+
+# To Add Custom Addon Inisde Ramdisk Other Wise addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons).
+SHRP_INC_IN_REC_EXTERNAL_ADDON_3 := true
