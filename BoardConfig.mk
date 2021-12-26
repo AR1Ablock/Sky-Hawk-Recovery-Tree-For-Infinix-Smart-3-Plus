@@ -74,6 +74,10 @@ ifeq ($(TWRP_INCLUDE_LOGCAT), true)
     RELINK_SOURCE_FILES += $(TARGET_OUT_EXECUTABLES)/logcat
 endif
 
+TARGET_RECOVERY_DEVICE_MODULES += \
+mkfs.ext2 \
+mkfs.ntfs
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
