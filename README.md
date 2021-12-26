@@ -31,7 +31,7 @@ Whats Not Working:-
 --------------------------------
 *Decryption (use my modified vendor for decryption).
 
-* Checksums Are Not Working Due To Fault In Manifest.
+*Checksums Are Not Working Due To Fault In Manifest.
 
 ------------------
 Note:-
