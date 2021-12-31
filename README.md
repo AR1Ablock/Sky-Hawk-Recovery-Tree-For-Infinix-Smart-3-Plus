@@ -12,6 +12,8 @@ Whats Working:-
 ---------------------------
 *Almost Everything.
 
+*Decryption (It took me 2 months to fix it and is also a hardest part).
+
 *mtp.
 
 *adb.
@@ -29,7 +31,6 @@ Whats Working:-
 --------------------------------
 Whats Not Working:-
 --------------------------------
-*Decryption (use my modified vendor for decryption).
 
 *Checksums Are Not Working Due To Fault In Manifest.
 
