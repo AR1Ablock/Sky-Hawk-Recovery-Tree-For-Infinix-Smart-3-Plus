@@ -5,7 +5,7 @@
 
 This is Final Version OF Sky Hawk Recovery After Alot Of Tests.
 
-This Is The Second Best Recovery For Infinix Smart 3 Plus.
+This Is The First Best Recovery For Infinix Smart 3 Plus.
 
 --------------------------
 Whats Working:-
